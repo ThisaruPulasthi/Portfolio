@@ -8,15 +8,16 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { ImBold } from "react-icons/im";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section1" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              EDUCATION <span className="purple01"> </span>
+            <h1 style={{fontFamily:"monospace",fontWeight:"bold", fontSize: "2.6em" }}>
+              EDUCATION <span className="purple02"> </span>
             </h1>
             <p className="home-about-body">
               University of Sri Jayewardenepura

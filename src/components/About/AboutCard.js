@@ -7,19 +7,19 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "center"}}>
           <span className="purple"> Hi Everyone, I am Thisaru Pulasthi 
-            from  Colombo, Sri Lanka.
-            <br />I am an undergraduate of University of Sri Jayewardenepura
+            <br />from  Colombo, Sri Lanka. I am an undergraduate of University of Sri Jayewardenepura
             <br />Sri Lanka and I am following a IT degree. 
             <br />nterested in graphic designing and UI/UX designing
-            In my free times, love to relax my mind with music. </span>
+            In my free times,
+            <br /> love to relax my mind with music. </span>
           </p>
-          <h1 style={{fontFamily:"monospace", fontWeight:"bold", fontSize: "2.1em", paddingBottom: "20px",color:"black" }}>
+          <h1 style={{fontFamily:"monospace", fontWeight:"bold", fontSize: "1.5em", color:"black",textAlign:"left"}}>
               contact details
             </h1>
-            <p style={{ textAlign: "justify" }}>
-          <span className="purple01"> Hi Everyone, I am Thisaru Pulasthi 
+            <p style={{ textAlign: "justify"}}>
+          <span className="purple01"> Hi Everyone, <br />I am Thisaru Pulasthi 
             from  Colombo, Sri Lanka.
             <br />D.H.B.Thisaru Pulasthi
             <br />56/4A,9th Lane,Ethull Kotte,Kotte. 

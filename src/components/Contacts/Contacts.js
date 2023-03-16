@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/qr.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -11,12 +11,12 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section1" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              Get In Touch<span className="purple01"> </span>
+            <h1 style={{ fontSize: "2.6em",fontWeight:"bold",fontFamily:"monospace"}}>
+              Get In Touch<span className="purple02"> </span>
             </h1>
             <p className="home-about-body">
               Address
@@ -62,15 +62,15 @@ function Home2() {
           </Col>
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+          <Col md={12} className="purple3">
+            <h1>FIND ME ON </h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple2">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/new"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -90,7 +90,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/thisaru-pulasthi-711733262"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
